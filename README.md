@@ -79,3 +79,6 @@ I will not be accepting PR's on this repository. Feel free to fork and maintain 
   <a href="https://github.com/oldboyxx/jira_clone/tree/master/client">View client</a> |
   <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View API</a>
 </h3>
+
+<p>very cool</p>
+<p>hmm yes</p>
