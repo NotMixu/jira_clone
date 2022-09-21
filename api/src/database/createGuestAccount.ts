@@ -10,24 +10,6 @@ const seedUsers = (): Promise<User[]> => {
       name: 'Pickle Rick',
       avatarUrl: 'https://i.ibb.co/7JM1P2r/picke-rick.jpg',
     }),
-    createEntity(User, {
-      email: 'yoda@jira.guest',
-      name: 'Baby Yoda',
-      avatarUrl: 'https://i.ibb.co/6n0hLML/baby-yoda.jpg',
-    }),
-    createEntity(User, {
-      email: 'gaben@jira.guest',
-      name: 'Lord Gaben',
-      avatarUrl: 'https://i.ibb.co/6RJ5hq6/gaben.jpg',
-    }),
-  ];
-  return Promise.all(users);
-};
-
-const seedProject = (users: User[]): Promise<Project> =>
-  createEntity(Project, {
-    name: 'singularity 1.0',
-    url: 'https://www.atlassian.com/software/jira',
     description:
       'Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software.',
     category: ProjectCategory.SOFTWARE,
