@@ -19,6 +19,5 @@ export const authenticateUser = catchErrors(async (req, _res, next) => {
 
 const getAuthTokenFromRequest = (req: Request): string | null => {
   const header = req.get('Authorization') || '';
-  const [bearer, token] = header.split(' ');
   return bearer === 'Bearer' && token ? token : null;
 };
