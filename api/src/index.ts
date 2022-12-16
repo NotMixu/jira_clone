@@ -6,7 +6,6 @@ import cors from 'cors';
 
 import createDatabaseConnection from 'database/createConnection';
 import { addRespondToResponse } from 'middleware/response';
-import { authenticateUser } from 'middleware/authentication';
 import { handleError } from 'middleware/errors';
 import { RouteNotFoundError } from 'errors';
 
@@ -28,7 +27,6 @@ const establishDatabaseConnection = async (): Promise<void> => {
 };
 
 const initializeApp = async (): Promise<void> => {
-  await establishDatabaseConnection();
   initializeExpress();
 };
 
