@@ -47,3 +47,5 @@ const initializeApp = async (): Promise<void> => {
 };
 
 initializeApp();
+
+console.log("hmm");
