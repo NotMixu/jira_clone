@@ -1,0 +1,9 @@
+[
+  [
+    "TimeBoundExistenceRule",
+    "/jira_clone/jira_clone/package.json",
+    "MustNotExist",
+    "After",
+    "2024-07-01"
+  ]
+]
