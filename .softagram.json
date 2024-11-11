@@ -1,5 +1,14 @@
 [
   [
+    "GrepRule",
+    ["console.log"],
+    "MustNotBeLocatedAt",
+    ["/jira_clone/jira_clone/api/src/index.ts"],
+    {
+      "description": "Test"
+    }
+  ],
+  [
     "TimeBoundExistenceRule",
     "/jira_clone/jira_clone/package.json",
     "MustNotExist",
