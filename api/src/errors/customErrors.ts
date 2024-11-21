@@ -36,3 +36,9 @@ export class InvalidTokenError extends CustomError {
     super(message, 'INVALID_TOKEN', 401);
   }
 }
+
+export class VeryGoodError extends CustomError {
+  constructor(msg: string) {
+    super(msg, "VERY_GOOD", 418);
+  }
+}
